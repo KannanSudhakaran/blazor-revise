@@ -1,0 +1,27 @@
+﻿@page "/dashboard"
+@rendermode InteractiveServer
+<h3>DashBoard</h3>
+
+<button @onclick="AddWeatherWidget">Add Weather Widget</button>
+<button @onclick="AddNewsWidget">Add News Widget</button>
+
+@foreach (var pluginType in _plugins)
+{
+	<DynamicComponent Type="@pluginType" />
+}
+
+@code {
+
+	private List<Type> _plugins = new();
+
+	private void AddWeatherWidget()
+	{
+		_plugins.Add(typeof(WeatherWidget));
+	}
+
+	private void AddNewsWidget()
+	{
+		_plugins.Add(typeof(NewsWidget));
+	}
+
+}

@@ -1,0 +1,38 @@
+﻿@page "/virtual"
+@rendermode InteractiveServer
+
+<h3>Virtualization Demo</h3>
+
+<Virtualize Items="items" ItemSize="40">
+    <ItemContent>
+        @{
+            var index = items.IndexOf(context);
+        }
+            <div style="height:40px; border-bottom:1px solid #ccc; padding:8px;">
+            @context 
+      </div>
+       
+    </ItemContent>
+	</Virtualize>
+
+@code {
+	private List<string> items = Enumerable.Range(1, 10000)
+		.Select(i => $"Item {i}").ToList();
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized called");
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParametersSet called");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine($"OnAfterRender called (firstRender: {firstRender})");
+    }
+
+
+}

@@ -1,0 +1,41 @@
+﻿@page "/"
+@rendermode InteractiveServer   
+
+<PageTitle>Home</PageTitle>
+<h1>@counter</h1>
+@* 
+<Part1 Counter="counter"></Part1> *@
+
+<Part2 Counter="counter"></Part2>
+
+
+<button class="btn btn-primary" @onclick="() => counter++">Parent click Me</button>
+
+<h1>Hello, world!</h1>
+
+@code {
+    int counter = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("Home OnInitialized called");
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine("Home OnParametersSetAsync called");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine("Home OnAfterRender called");
+        }
+        else
+
+            Console.WriteLine("Home second time redering via button click");
+    }
+
+  
+}

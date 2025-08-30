@@ -1,0 +1,28 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Components.QuickGrid
+
+<PageTitle>Home</PageTitle>
+
+<QuickGrid TItem="Person" Items="people">
+    <PropertyColumn Property="@(p => p.Id)" Title="ID" />
+    <PropertyColumn Property="@(p => p.Name)" Title="Name" />
+    <PropertyColumn Property="@(p => p.Age)" Title="Age" />
+</QuickGrid>
+
+@code
+{
+    public class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Age { get; set; }
+    }
+
+    private IQueryable<Person> people = new List<Person>()
+    {
+        new Person { Id = 1, Name = "Alice", Age = 30 },
+        new Person { Id = 2, Name = "Bob", Age = 25 },
+        new Person { Id = 3, Name = "Charlie", Age = 35 }
+    }.AsQueryable();
+}

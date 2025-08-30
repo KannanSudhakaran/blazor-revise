@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|c:\\temp\\blazor\\day4demos\\demo03exceptions\\demo03exceptions\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|solutionrelative:demo03exceptions\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|c:\\temp\\blazor\\day4demos\\demo03exceptions\\demo03exceptions\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|solutionrelative:demo03exceptions\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|c:\\temp\\blazor\\day4demos\\demo03exceptions\\demo03exceptions\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|solutionrelative:demo03exceptions\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|c:\\temp\\blazor\\day4demos\\demo03exceptions\\demo03exceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB0A757-BCC8-4744-9FBE-BDA8672B0CB2}|Demo03Exceptions\\Demo03Exceptions.csproj|solutionrelative:demo03exceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Filters\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "Demo03Exceptions\\Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "Demo03Exceptions\\Filters\\ExceptionFilter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:40:55.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Demo03Exceptions\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Demo03Exceptions\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:36:06.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Program.cs",
+              "RelativeDocumentMoniker": "Demo03Exceptions\\Program.cs",
+              "ToolTip": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Program.cs",
+              "RelativeToolTip": "Demo03Exceptions\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:35:40.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Demo03Exceptions\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\temp\\Blazor\\Day4Demos\\Demo03Exceptions\\Demo03Exceptions\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Demo03Exceptions\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:34:52.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿<button @onclick="ThrowError">Throw Error</button>
+
+@code {
+    private void ThrowError()
+    {
+        throw new InvalidOperationException("This is a test error!");
+    }
+}

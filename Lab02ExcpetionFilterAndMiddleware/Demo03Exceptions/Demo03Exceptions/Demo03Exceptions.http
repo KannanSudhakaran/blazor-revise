@@ -1,0 +1,6 @@
+@Demo03Exceptions_HostAddress = http://localhost:5011
+
+GET {{Demo03Exceptions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

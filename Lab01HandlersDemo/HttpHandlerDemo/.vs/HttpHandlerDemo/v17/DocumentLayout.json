@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\httphandlerdemo\\httphandlerdemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|solutionrelative:httphandlerdemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\httphandlerdemo\\httphandlerdemo\\mymodule1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|solutionrelative:httphandlerdemo\\mymodule1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\httphandlerdemo\\httphandlerdemo\\iishandler1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605198EC-ADA4-4094-8BAA-AB7695E53BFD}|HttpHandlerDemo\\HttpHandlerDemo.csproj|solutionrelative:httphandlerdemo\\iishandler1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\Web.config",
+              "RelativeDocumentMoniker": "HttpHandlerDemo\\Web.config",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\Web.config",
+              "RelativeToolTip": "HttpHandlerDemo\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-30T07:21:17.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyModule1.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\MyModule1.cs",
+              "RelativeDocumentMoniker": "HttpHandlerDemo\\MyModule1.cs",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\MyModule1.cs",
+              "RelativeToolTip": "HttpHandlerDemo\\MyModule1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T06:53:26.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IISHandler1.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\IISHandler1.cs",
+              "RelativeDocumentMoniker": "HttpHandlerDemo\\IISHandler1.cs",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\HttpHandlerDemo\\HttpHandlerDemo\\IISHandler1.cs",
+              "RelativeToolTip": "HttpHandlerDemo\\IISHandler1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T06:52:31.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

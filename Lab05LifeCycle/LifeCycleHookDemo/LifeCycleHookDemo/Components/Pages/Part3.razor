@@ -1,0 +1,44 @@
+﻿@page "/part3"
+@rendermode InteractiveServer
+
+<h3>Part3</h3>
+<button @onclick="IncrementCount">Click Me</button>
+
+<h1>Current count: @counter</h1>
+<h2>@DateTime.Now.ToString()</h2>
+@code {
+    int counter = 0;
+
+    private void IncrementCount()
+    {
+       
+        counter++;
+        Console.WriteLine(counter);
+    }
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized called");
+    }
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParametersSet called");
+    }
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine("OnAfterRender called");
+        }
+        else
+            Console.WriteLine("second time rendering via button click");
+    }
+
+
+    protected override bool ShouldRender()
+    {
+        Console.WriteLine("ShouldRender called");
+        return counter % 2 == 0; // Only render on even counts
+    }
+
+}

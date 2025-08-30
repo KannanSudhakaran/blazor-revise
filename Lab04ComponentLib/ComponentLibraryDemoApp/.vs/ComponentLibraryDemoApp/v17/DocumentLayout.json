@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\razorclasslibrary1\\examplejsinterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|solutionrelative:razorclasslibrary1\\examplejsinterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\razorclasslibrary1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|solutionrelative:razorclasslibrary1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718A7F7F-084E-4F42-B7DA-6A4D50A36079}|ComponentLibraryDemoApp\\ComponentLibraryDemoApp.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\componentlibrarydemoapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{718A7F7F-084E-4F42-B7DA-6A4D50A36079}|ComponentLibraryDemoApp\\ComponentLibraryDemoApp.csproj|solutionrelative:componentlibrarydemoapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718A7F7F-084E-4F42-B7DA-6A4D50A36079}|ComponentLibraryDemoApp\\ComponentLibraryDemoApp.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\componentlibrarydemoapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{718A7F7F-084E-4F42-B7DA-6A4D50A36079}|ComponentLibraryDemoApp\\ComponentLibraryDemoApp.csproj|solutionrelative:componentlibrarydemoapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\razorclasslibrary1\\button.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|solutionrelative:razorclasslibrary1\\button.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|c:\\temp\\blazor\\_demosforrevisionclass\\componentlibrarydemoapp\\razorclasslibrary1\\alert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4D196CC-2CF4-95B3-2ACC-1877BA4D8F51}|RazorClassLibrary1\\RazorClassLibrary1.csproj|solutionrelative:razorclasslibrary1\\alert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleJsInterop.cs",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\ExampleJsInterop.cs",
+              "RelativeDocumentMoniker": "RazorClassLibrary1\\ExampleJsInterop.cs",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\ExampleJsInterop.cs",
+              "RelativeToolTip": "RazorClassLibrary1\\ExampleJsInterop.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T09:01:00.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\ComponentLibraryDemoApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ComponentLibraryDemoApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\ComponentLibraryDemoApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "ComponentLibraryDemoApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T08:57:16.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\ComponentLibraryDemoApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ComponentLibraryDemoApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\ComponentLibraryDemoApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ComponentLibraryDemoApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T08:56:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\_Imports.razor",
+              "RelativeDocumentMoniker": "RazorClassLibrary1\\_Imports.razor",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\_Imports.razor",
+              "RelativeToolTip": "RazorClassLibrary1\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T08:55:59.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Button.razor",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\Button.razor",
+              "RelativeDocumentMoniker": "RazorClassLibrary1\\Button.razor",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\Button.razor",
+              "RelativeToolTip": "RazorClassLibrary1\\Button.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T08:54:58.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Alert.razor",
+              "DocumentMoniker": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\Alert.razor",
+              "RelativeDocumentMoniker": "RazorClassLibrary1\\Alert.razor",
+              "ToolTip": "C:\\temp\\Blazor\\_DemosForRevisionClass\\ComponentLibraryDemoApp\\RazorClassLibrary1\\Alert.razor",
+              "RelativeToolTip": "RazorClassLibrary1\\Alert.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T08:54:04.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

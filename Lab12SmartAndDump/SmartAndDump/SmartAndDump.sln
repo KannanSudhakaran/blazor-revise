@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAndDump", "SmartAndDump\SmartAndDump.csproj", "{BCA339DB-0B82-4BDB-9AF0-F89566E5A503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA339DB-0B82-4BDB-9AF0-F89566E5A503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA339DB-0B82-4BDB-9AF0-F89566E5A503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA339DB-0B82-4BDB-9AF0-F89566E5A503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA339DB-0B82-4BDB-9AF0-F89566E5A503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146BA19D-5BD9-4B2E-980A-A90382AAC60F}
+	EndGlobalSection
+EndGlobal

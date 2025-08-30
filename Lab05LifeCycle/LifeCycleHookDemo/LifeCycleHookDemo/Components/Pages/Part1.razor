@@ -1,0 +1,42 @@
+﻿@page "/part1"
+@rendermode InteractiveServer
+<h3>Part1</h3>
+<h3>Lifecycle Methods</h3>
+
+<button @onclick="OnButtonClick">Click Me</button>
+<p>@DateTime.Now.ToString()</p>
+
+<p>Check the console for lifecycle method calls.</p>
+<h3>Parameter value child :@Counter</h3>
+
+@code {
+
+    [Parameter]
+    public int? Counter { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("Child:OnInitialized called");
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine("Child:OnParametersSetAsync called");
+    }
+    
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine("Child:OnAfterRender called");
+        }
+        else
+
+            Console.WriteLine("Child:second time redering via button click");
+    }
+
+    private void OnButtonClick()
+    {
+        Console.WriteLine("Button clicked");
+    }
+}

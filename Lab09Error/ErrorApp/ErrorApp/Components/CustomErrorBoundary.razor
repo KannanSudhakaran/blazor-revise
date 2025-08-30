@@ -1,0 +1,21 @@
+﻿@inherits ErrorBoundary
+
+<div>
+    @if (CurrentException != null)
+    {
+        <h3 style="color:red;">Something went wrong!</h3>
+        <p>@CurrentException.Message</p>
+        <button @onclick="OnRecover">Try Again</button>
+    }
+    else
+    {
+        @ChildContent
+    }
+</div>
+
+@code {
+    private void OnRecover()
+    {
+        base.Recover(); // Reset error state
+    }
+}

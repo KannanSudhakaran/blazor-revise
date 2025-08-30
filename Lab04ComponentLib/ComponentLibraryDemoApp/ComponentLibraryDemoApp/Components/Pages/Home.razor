@@ -1,0 +1,17 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<Alert Type="success" Message="This is a success alert!" />
+<Alert Type="warning" Message="This is a warning alert!" />
+<Alert Type="danger" Message="This is a danger alert!" />
+<Button Text="Click Me" OnClick="OnButtonClick" />
+<h2>@DateTime.Now.ToString()</h2>
+
+@code {
+    private void OnButtonClick()
+    {
+        Console.WriteLine("Button clicked!");
+    }
+}

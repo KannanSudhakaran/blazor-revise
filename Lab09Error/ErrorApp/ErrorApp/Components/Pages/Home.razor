@@ -1,0 +1,18 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h3>Error Boundary Demo</h3>
+
+<h1>with Custom Error Boundary</h1>
+<CustomErrorBoundary>
+    <ProblematicComponent />
+</CustomErrorBoundary>
+
+<h1>with just Eroor boudnary</h1>
+<ErrorBoundary>
+    <ProblematicComponent />
+</ErrorBoundary>
+<h2>No Error Boundary</h2>
+<ProblematicComponent />

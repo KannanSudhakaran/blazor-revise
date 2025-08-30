@@ -1,0 +1,116 @@
+﻿@page "/navigation"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Components.Routing
+
+@implements IDisposable
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+<h3>Simple Navigation Guard Demo</h3>
+
+<!-- Simple form -->
+<div class="mb-3">
+    <label>Your Name:</label>
+    <input value="@userName" @oninput="OnInputChanged" class="form-control" style="max-width: 300px;" />
+</div>
+
+<div class="mb-3">
+    <button @onclick="SaveData" class="btn btn-success">Save</button>
+    <button @onclick="ClearData" class="btn btn-secondary ms-2">Clear</button>
+</div>
+
+<!-- Status -->
+<div class="alert @(hasUnsavedChanges ? "alert-warning" : "alert-success")">
+    @if (hasUnsavedChanges)
+    {
+        <strong>⚠️ You have unsaved changes!</strong>
+    }
+    else
+    {
+        <strong>✅ All saved!</strong>
+    }
+</div>
+
+<!-- Test navigation -->
+@* <div class="mt-4">
+    <h5>Try navigating away:</h5>
+    <a href="/" class="btn btn-outline-primary me-2">Go to Home</a>
+    <a href="/counter" class="btn btn-outline-primary">Go to Counter</a>
+</div> *@
+
+<h2>With route navigation</h2>
+<div class="mt-4">
+    <h5>Try navigating away:</h5>
+    <a @onclick="GoToHome" class="btn btn-outline-primary me-2">Go to Home</a>
+    <a @onclick="GotoCounter" class="btn btn-outline-primary">Go to Counter</a>
+</div>
+
+@code {
+
+    private void GotoCounter()
+    {
+        Navigation.NavigateTo("/counter");
+    }
+
+    private void GoToHome()
+    {
+        Navigation.NavigateTo("/");
+    }
+
+    private string userName = "";
+    private string savedUserName = "";
+    private bool hasUnsavedChanges = false;
+    private IDisposable? locationChangingRegistration;
+
+    protected override void OnInitialized()
+    {
+        // Register the navigation guard
+        locationChangingRegistration = Navigation.RegisterLocationChangingHandler(OnLocationChanging);
+    }
+
+    // protected override void OnAfterRender(bool firstRender)
+    // {
+    //     locationChangingRegistration = Navigation.RegisterLocationChangingHandler(OnLocationChanging);
+    // }
+
+    private void OnInputChanged(ChangeEventArgs e)
+    {
+        userName = e.Value?.ToString() ?? "";
+        // Check if there are unsaved changes
+        hasUnsavedChanges = userName != savedUserName;
+    }
+
+    private async ValueTask OnLocationChanging(LocationChangingContext context)
+    {
+        // Only show warning if there are unsaved changes
+        if (hasUnsavedChanges)
+        {
+            bool userWantsToLeave = await JS.InvokeAsync<bool>("confirm",
+                "You have unsaved changes. Do you really want to leave?");
+
+            if (!userWantsToLeave)
+            {
+                context.PreventNavigation(); // Stop the navigation
+            }
+        }
+    }
+
+    private void SaveData()
+    {
+        savedUserName = userName;
+        hasUnsavedChanges = false;
+    }
+
+    private void ClearData()
+    {
+        userName = "";
+        savedUserName = "";
+        hasUnsavedChanges = false;
+    }
+
+    public void Dispose()
+    {
+        // Clean up when component is destroyed
+        locationChangingRegistration?.Dispose();
+    }
+}

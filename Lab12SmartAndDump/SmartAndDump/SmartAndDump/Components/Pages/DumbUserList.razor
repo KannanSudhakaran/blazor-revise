@@ -1,0 +1,14 @@
+﻿<h3>DumbUserList</h3>
+
+@* UserList.razor *@
+@code {
+	[Parameter]
+	public List<string> Users { get; set; }
+}
+
+<ul>
+	@foreach (var user in Users)
+	{
+		<li>@user</li>
+	}
+</ul>

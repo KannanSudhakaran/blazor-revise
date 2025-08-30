@@ -1,0 +1,26 @@
+﻿@page "/"
+@page "/persist-demo"
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+@rendermode InteractiveServer
+
+<h3>Persist State Demo</h3>
+<input @bind="name" placeholder="Enter your name" />
+<button @onclick="SaveName">Save</button>
+<button @onclick="LoadName">Load</button>
+<p>Saved Name: @savedName</p>
+
+@code {
+    private string name;
+    private string savedName;
+
+    private async Task SaveName()
+    {
+        await localStorage.SetItemAsync("userName", name);
+    }
+
+    private async Task LoadName()
+    {
+        savedName = await localStorage.GetItemAsync<string>("userName");
+    }
+}
